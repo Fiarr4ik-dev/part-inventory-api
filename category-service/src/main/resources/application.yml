@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: category-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/part-inventory-api
+    username: postgres
+    password: postgres
+server:
+  port: 8082
