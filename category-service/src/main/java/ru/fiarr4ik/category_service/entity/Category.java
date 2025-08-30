@@ -7,6 +7,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * Сущность категории запчасти.
+ */
 @Entity
 @Table(name = "category")
 @Getter

@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CategoryService {
+public class CategoryServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CategoryService.class, args);
+        SpringApplication.run(CategoryServiceApplication.class, args);
     }
 }
